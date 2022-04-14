@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: auto auto auto;
+            grid-gap: 5%;
+        }
+
+        .header {
+            background-color: #eee;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2vw;
+        }
+
+        .aside {
+            background-color: antiquewhite;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 0.8vw;
+        }
+
+        h1.article {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5vw;
+        }
+
+        p.article {
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1vw;
+        }
+
+        .article {
+
+            background-color: rgb(154, 226, 226);
+        }
+
+        .midle {
+
+            display: grid;
+            grid-template-columns: 10% 90%;
+
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .midle {
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 100% 100%;
+            }
+
+            .aside {
+                text-align: center;
+                font-size: 2vw;
+
+            }
+
+            .article>p {
+                text-align: justify;
+                margin: 10%;
+            }
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <p>This is a header</p>
+        </div>
+        <div class="midle">
+            <div class="aside">
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+                <p>Insert menu</p>
+            </div>
+            <div class="article">
+                <h1>This is a article</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iusto dolores illo doloribus
+                    aliquid, minima architecto ab numquam odit animi quas, iste nulla perspiciatis aspernatur
+                    consectetur tempore quia. Alias, vel magnam quisquam totam corporis eos, similique delectus sit
+                    commodi at minus nostrum ab. Tenetur iure excepturi libero soluta aut explicabo dolorum similique
+                    mollitia, rerum illo dolor quo in nam optio eveniet quasi amet aliquid corporis voluptates placeat,
+                    rem quia repellat! Ipsam aut quo omnis dolore accusamus numquam deleniti velit laborum ad et,
+                    incidunt assumenda sunt exercitationem repellat neque tempore non sapiente quasi ducimus magnam
+                    maiores architecto iure maxime. Quisquam, nostrum.</p>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+</body>
+
+</html>
